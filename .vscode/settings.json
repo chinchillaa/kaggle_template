@@ -1,0 +1,20 @@
+{
+  "$comment": "Set the defferent colors for each project.",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#dce274",
+    "activityBarBadge.background": "#dce274"
+  },
+  "$comment": "Set the code formatter for python projects.",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.formatOnCellExecution": true
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+}
